@@ -1,0 +1,20 @@
+<form method="post">
+    [% IF error_msg %]
+    <span class="error">[% error_msg %]</span>
+    [% END %]
+ 
+    <label for="__username">Username:</label>
+    <input type="text" name="__username" size="40" />
+    <br />
+ 
+    <label for="__password">Password:</label>
+    <input type="password" name="__password" size="40" />
+    <br />
+ 
+    [% FOREACH p IN Catalyst.request.params.pairs %]
+        [% NEXT IF p.key.matches( '^__' ) %]
+        <input type="hidden" name="[% p.key %]" value="[% p.value %]" />
+    [% END %]
+ 
+    <input type="submit value="Login" />
+</form>
