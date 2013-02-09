@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>currentDocument</key>
+	<string>main.pl</string>
+	<key>documents</key>
+	<array>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>expanded</key>
+			<true/>
+			<key>name</key>
+			<string>arcsde-seshsquash</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>auth/login.tt2</string>
+			<key>lastUsed</key>
+			<date>2013-02-05T11:03:05Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>main.pl</string>
+			<key>lastUsed</key>
+			<date>2013-02-05T11:49:40Z</date>
+			<key>selected</key>
+			<true/>
+		</dict>
+	</array>
+	<key>fileHierarchyDrawerWidth</key>
+	<integer>200</integer>
+	<key>metaData</key>
+	<dict>
+		<key>auth/login.tt2</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>20</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>main.pl</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>31</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>main.pl</string>
+		<string>auth/login.tt2</string>
+	</array>
+	<key>showFileHierarchyDrawer</key>
+	<true/>
+	<key>windowFrame</key>
+	<string>{{203, 4}, {1067, 774}}</string>
+</dict>
+</plist>
